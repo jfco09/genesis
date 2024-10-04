@@ -7,7 +7,7 @@ Este proyecto combina **RAG (Retrieval-Augmented Generation)** y **LLM (Large La
 💾 **Base de Datos Vectorial**: [ChromaDB](https://www.trychroma.com) | [GitHub: ChromaDB](https://github.com/chroma-core/chroma)  
 🦙 **Gestión de Modelos**: [Ollama](https://ollama.com/)  
 🦜️🔗 [Langchain]( https://www.langchain.com/)
-
+🎨**GUI [Streamlit](https://streamlit.io/)**
 ## ⚙️ Instalación
 Pasos para instalar
 
