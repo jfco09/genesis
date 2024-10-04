@@ -1,0 +1,5 @@
+# Genesis
+RAG (Retrieval-Augmented Generation) + LLM (Large Language Model)
+
+En el proyecto se ha usado el modelo mxbai-embed-large para generar los embeddigns. 
+Los embeddings se introducen en la base de datos vectorial. En este caso he usado [ChromaDB](https://https://www.trychroma.com/) [ChromaDB](https://https://www.trychroma.com/)

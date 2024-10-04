@@ -46,10 +46,11 @@ def create_chromadb(chunks: list[Document]):
     if os.path.exists(db_path):
         shutil.rmtree(db_path)
     
-    # Crea la base de datos  usando el modelo nomic-embed-text
+    # Crea la base de datos  usando el modelo mxbai-embed-large
+
     db = Chroma.from_documents(
         chunks, 
-        OllamaEmbeddings(model="nomic-embed-text", show_progress= True),
+        OllamaEmbeddings(model="mxbai-embed-large", show_progress=True),
         persist_directory= db_path,
         collection_name = "rag-test",
     )
