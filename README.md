@@ -58,7 +58,7 @@ ollama pull mxbai-embed-large
 
 ## 🏃‍♂️ Ejecutar el proyecto
 1. Crear la base de datos vectorial
-Coloca los documentos en la carpeta ```data/``` y luego ejecuta el siguiente script para crear la base de datos de embeddings:
+Coloca los documentos en la carpeta ```data/manuals``` (crea la carpeta si no la tienes) y luego ejecuta el siguiente script para crear la base de datos de embeddings:
 
 ```bash
 python create_database.py
